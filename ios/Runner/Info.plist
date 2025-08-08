@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Manifest</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>manifest</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+      <key>https://manifest-7377f.firebaseapp.com/__/auth/handler</key>
+      <array>
+        <!-- <string>fb1194728464975579</string> -->
+        <string>fb1203195591235143</string>
+      </array>
+      </dict>
+    </array>
+	<key>FacebookAppID</key>
+    <!-- <string>1194728464975579</string> -->
+    <string>1203195591235143</string>
+    <key>FacebookClientToken</key>
+    <!-- <string>b6d282fd0a1c5eb348cfd1245d3668dd</string> -->
+    <string>4b18fc7fddf71f9a527762f2095cf55d</string>
+    <key>FacebookDisplayName</key>
+    <string>Manifest</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We need access to your photo library to allow you to save photos.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs access to storage to save and access audio files.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app needs access to microphone to record audio.</string>
+	
+	<!-- Add these for social sharing -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photos to share them on social media</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera to take photos for sharing</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone for audio sharing</string>
+	
+	<!-- URL Schemes for social media apps -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb$(FACEBOOK_APP_ID)</string>
+				<string>twitterkit-$(TWITTER_CONSUMER_KEY)</string>
+				<string>instagram</string>
+				<string>whatsapp</string>
+			</array>
+		</dict>
+	</array>
+	
+	<!-- Facebook Configuration -->
+	<key>FacebookAppID</key>
+	<string>$(FACEBOOK_APP_ID)</string>
+	<key>FacebookDisplayName</key>
+	<string>manifest</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>instagram</string>
+		<string>instagram-stories</string>
+		<string>whatsapp</string>
+		<string>twitter</string>
+	</array>
+</dict>
+</plist>
