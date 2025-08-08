@@ -1,0 +1,3 @@
+@playlist_details_screen.dart#L158-168 want to implement the download playlist fucntionality:
+This funcitonality will require a model DownloadedPlaylist will be same as the @explore_playlist_by_id_model.dart#L19-63 playlist in the @explore_playlist_by_id_model.dart, in DownloadedPlaylist we also need toPlaylist fromPlaylist, toJson, fromJson as we had created @downloaded_soundscape.dart.
+Ensure that the internal classes are also created with appropriate name.

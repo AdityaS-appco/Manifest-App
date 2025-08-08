@@ -1,0 +1,20 @@
+
+Can you please analyze the full functionaltiy of playing the affirmation in the @media_player_screen.dart and @media_player_controller.dart , in association with the loop and timer fucntionalities. analyze and then describe me the flow as soon as the user reaches the media_palyer_screen what happens
+
+Currently i am looking at the player and found some issues, that media player continuosly being played and switching the affirmation randomly, don't know how, i think the affirmation delay thing is making the playing pausing functionality to behave abnormally. Please do check the affirmation delay and change the audio. so when user pauses the affirmaiton player then the affirmation delay is also pauses, also handle some other related cases, making the loop fucntioanal too, when the loop is enabled, and the loop count is greater than 0 and the last affirmation playback is completed then first decrement the loop count and start play from the first affirmation.
+
+No, not to the point! But can count as minor fix:
+When the user opens the screen,
+1. initialize all the audio players
+2. start playing the affirmaiton
+3. when affirmation is playing then the flag is updated accordingly, and the media player button is updated accoridnlgy in the screen.
+4. as soon as the afffirmaiton ends, then loop at the affirmation delay set from @audio_settings_controller.dart to @media_player_controller.dart if not 0 then wait for that much time(during this time we need to keep the media player button in playing mode, until the user haven't pressed and toggle the play butotn to pause, if affirmation ended and then waiting for affirmation delay to complete and user paused the button in mid time then the delay will be reset to 0 and when user cliks on the play button again then the next affirmation will start play.
+5. now if the affirmation being played is the last affirmation, and it completed playing then will wait for affirmaiton delay to complete, then as soon as the delay too gets completed, then will check if loop is enabled and loop count is greater than 0, if yes then first decrement the loop count, and start playing from the first affirmation all to the end.
+
+
+
+Very Good! Well Done!
+Just want one more thing to add - how about while waiting for the affirmation delay to complete, then instead of keeping the media player unresponsive (i mean nothing is updating during that time), we can do this, display the delay as duration in the media player button, teh same way we do for the affirmation's duration. The difference will be that when waiting for the affirmation delay to complete then the delay duration will be used for the button to display the duraiton slider. Also want the page swipe animation to be more polite. keeping the existing methods and fucntioanlities same.
+
+
+@media_player_button.dart#L1-106 the animation seems a bit sketchy, it's not that smooth, are you tracking the passed duration in milliseconds? as it is required to update UI sooner
