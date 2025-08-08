@@ -1,0 +1,184 @@
+name: manifest
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+2
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # services
+  connectivity_plus: ^6.0.5
+  http: ^1.2.0
+
+  # firebase
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.17.7
+  cloud_firestore: ^4.15.7
+  firebase_storage: ^11.6.9
+  flutter_facebook_auth: ^7.1.0
+
+  # statement management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  # utils
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.9
+  gap: ^3.0.1
+  flutter_pin_code_fields: ^2.2.0
+  flutter_time_picker_spinner: ^2.0.0
+  flutter_easyloading: ^3.0.5
+  awesome_snackbar_content:
+  awesome_dialog: ^3.2.0
+  mesh_gradient: ^1.3.7
+  glassmorphism: ^3.0.0
+  path_provider: ^2.1.2
+  audio_waveforms: ^1.0.4
+
+  # Responsive UI
+  flutter_screenutil: ^5.9.0
+
+  # sign in
+  google_sign_in: ^6.2.2
+  google_sign_in_ios: ^5.7.3
+  sign_in_with_apple:
+  flutter_login_facebook: ^2.0.1
+
+  # Image picker
+  image_picker: ^1.0.7
+  image_cropper: ^5.0.1
+  photo_view: ^0.14.0
+  flutter_image_compress: ^2.2.0
+
+  # audio player
+  just_audio: ^0.9.36
+  audio_video_progress_bar: ^2.0.2
+  device_info_plus: ^9.1.1
+  flutter_tts: ^3.6.3
+
+  # Charts & animations
+  syncfusion_flutter_charts:
+  fl_chart: ^0.66.2
+  syncfusion_officechart: ^24.1.41
+  syncfusion_flutter_sliders: ^24.2.9
+  syncfusion_localizations: ^24.1.41
+  sleek_circular_slider: ^2.0.1
+  syncfusion_flutter_gauges: ^24.2.8
+  flutter_staggered_animations: ^1.1.1
+  loading_animation_widget: ^1.2.1
+  shared_preferences: ^2.2.0
+
+  # recording affirmations
+  record: ^4.4.4
+  permission_handler: ^11.0.1
+  music_visualizer: ^1.0.4
+  elevenlabs_flutter: ^0.0.1
+  palette_generator: ^0.3.3+4
+  google_fonts: ^6.2.1
+
+  intl: any
+  syncfusion_flutter_core: any
+  text_scroll: ^0.2.0
+  audio_duration: ^0.0.3
+  file_picker: ^8.0.7
+  shimmer: ^3.0.0
+  video_player: ^2.9.2
+  fluttertoast: ^8.2.8
+  firebase_messaging: ^14.9.4
+  flutter_local_notifications: ^18.0.1
+  flutter_timezone: ^3.0.1
+  purchases_flutter: ^8.6.0
+  keyboard_dismisser: ^3.0.0
+  flutter_dynamic_icon: ^2.1.0
+  scroll_loop_auto_scroll: ^0.0.5
+  flutter_carousel_widget: ^3.1.0
+  flutter_picker_plus: ^1.5.0
+  gradient_borders: ^1.0.1
+  logger: ^2.5.0
+  icons_plus: ^5.0.0
+  appinio_social_share: ^0.3.2
+  webview_flutter: ^4.8.0
+  dartz: ^0.10.1
+  fvp: ^0.31.2
+  json_annotation: ^4.9.0
+  freezed_annotation: ^2.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  unused_import_remover: ^1.0.1
+  json_serializable: ^6.8.0
+  freezed: ^2.5.2
+  build_runner: ^2.4.11
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/language/
+    - assets/logo/
+    - assets/audio/
+    - assets/icons/
+    - assets/icons/bottomNavBarIcons/
+    - assets/icons/SettingsIcons/
+    - assets/icons/PremiumSheetIcon/
+    - assets/icons/mediaPlayerIcons/
+    - assets/icons/social_media_icons/
+    - assets/icons_all/
+    - assets/line_icons/
+    - assets/images/
+    - assets/images/socialMediaLogo/
+    - assets/images/dashboard_assets/
+    - assets/images/creating_account/
+    - assets/images/theme_scene/
+    - assets/images/app_icons/
+    - assets/images/sleep_timer/
+    - assets/images/share_background/
+
+  fonts:
+    - family: TanMemories
+      fonts:
+        - asset: assets/fonts/tan-memories-2.otf
+    - family: BreeSerif
+      fonts:
+        - asset: assets/fonts/BreeSerif-Regular.ttf
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/helvetica/Helvetica.ttf
+        - asset: assets/fonts/helvetica/helvetica-light.ttf
+          weight: 300
+        - asset: assets/fonts/helvetica/Helvetica-LightOblique.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/helvetica/Helvetica-Oblique.ttf
+          style: italic
+        - asset: assets/fonts/helvetica/Helvetica-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/helvetica/Helvetica-Bold Oblique.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/helvetica/Helvetica-Black.otf
+          weight: 900
+        - asset: assets/fonts/helvetica/Helvetica Black Oblique.otf
+          weight: 900
+          style: italic
+    - family: HelveticaRounded
+      fonts:
+        - asset: assets/fonts/helvetica/Helvetica Rounded Bold.otf
+          weight: 700
+        - asset: assets/fonts/helvetica/Helvetica Rounded Bold Oblique.otf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/helvetica/Helvetica Rounded Black.otf
+          weight: 900

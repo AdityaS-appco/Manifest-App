@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "936138807124",
+    "project_id": "manifest-7377f",
+    "storage_bucket": "manifest-7377f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936138807124:android:1ff71e87ae3a6265831ac1",
+        "android_client_info": {
+          "package_name": "com.manifest.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936138807124-dp39lqtju9jpsgnp4945bqsjjkfk0pka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manifest.app",
+            "certificate_hash": "754ce2ef69bff8f633a1eb5d2228a1c6128cde64"
+          }
+        },
+        {
+          "client_id": "936138807124-dc57d43tkqhenp4csnagk0tc3er8casl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoTCdos8RmFVNZcqOtsIrRPmYA4Nolfao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936138807124-dc57d43tkqhenp4csnagk0tc3er8casl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "936138807124-8avdujc8shms6v82f8meplhssoodh068.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.manifest.so"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936138807124:android:1af193fa21a7626e831ac1",
+        "android_client_info": {
+          "package_name": "com.manifest.so"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936138807124-dc57d43tkqhenp4csnagk0tc3er8casl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoTCdos8RmFVNZcqOtsIrRPmYA4Nolfao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936138807124-dc57d43tkqhenp4csnagk0tc3er8casl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "936138807124-8avdujc8shms6v82f8meplhssoodh068.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.manifest.so"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

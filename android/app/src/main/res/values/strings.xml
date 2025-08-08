@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manifest</string>
+    <!-- <string name="facebook_app_id">1194728464975579</string> -->
+    <string name="facebook_app_id">1203195591235143</string>
+    <!-- <string name="fb_login_protocol_scheme">fb1194728464975579</string> -->
+    <string name="fb_login_protocol_scheme">fb1203195591235143</string>
+    <!-- <string name="facebook_client_token">b6d282fd0a1c5eb348cfd1245d3668dd</string> -->
+    <string name="facebook_client_token">4b18fc7fddf71f9a527762f2095cf55d</string>
+</resources>
+
+
